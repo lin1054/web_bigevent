@@ -29,7 +29,7 @@ function renderAvatar(user) {
   $("#welcome").html("欢迎" + name);
 
   if (user.user_pic != null) {
-    $(".layui-nav-img").atter("src", user.user_pic).show();
+    $(".layui-nav-img").attr("src", user.user_pic).show();
     $(".text-avatar").hide();
   } else {
     $(".layui-nav-img").hide();
